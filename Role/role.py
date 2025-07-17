@@ -3,7 +3,7 @@ def is_correct(height_:int, age_:int, name_:str):
     ha nem felel meg, felsorolja az elutasítás okait.'''
     reasons = [] # Ebbe a listába gyüjtjük az okokat!
 
-    if age_ > 28:
+    if age_ > 8:
         reasons.append("Életkor nem megfelelő")
     if height_ < 170:
         reasons.append("Magasság nem megfelelő")
